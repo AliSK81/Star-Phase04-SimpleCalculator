@@ -2,7 +2,7 @@
 
 namespace SimpleCalculator.Business.OperatorBusiness.Operators
 {
-    internal class DivisionOperator : IOperator
+    public class DivisionOperator : IOperator
     {
         public int Calculate(int first, int second)
         {
